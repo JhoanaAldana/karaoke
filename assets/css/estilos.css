@@ -1,0 +1,135 @@
+html,body{
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+li{   
+    list-style-type: none;
+}
+.btn{
+	background-color: inherit;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 1.2em;
+	padding: 10px 12px;
+}
+a,a:visited{
+	color: inherit;
+	text-decoration: none;
+}
+.be-red{
+	background-color: #E74C3C;
+}
+.white{
+	color: #FFFFFB;
+}
+.large-padding{
+	padding: 15px 7px;
+}
+.no-margin{
+	margin:0px;
+}
+.red{
+	color: #E74C3C !important;
+}
+.form-control{
+	border: none;
+	border-bottom: 1px solid;
+	outline: none;
+	width: 100%;
+	display: block;
+	padding: 10px 0px;
+	font-size: 1.2em;
+    width: 350px;
+}
+.col-md {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    max-width: 100%;
+  }
+.img-Logo{
+margin-left: 700px;
+margin-top: -350px;
+width: 350px;
+height: 350px;
+}
+.row {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+}
+.center-xs {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+.middle-xs {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.center{
+ margin-left: 250px;   
+ margin-top: 30px;
+}
+ input[type="text"]{
+border: 0px; 
+     
+ }
+#no-estilo{
+    text-decoration-line: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+    border-style: none;
+    background: rgba(0, 0, 0, 0);
+	font-family: 'Roboto', sans-serif;
+    width: 85px;
+    height: 50px;    
+}
+
+.contenedor {
+    height: 500px;
+    width: 350px;
+    margin-left: 80px;
+    background-color: #bbdefb;
+    margin-top: 60px;
+}
+
+#bus {
+    width: 200px;
+}
+
+#myDiv {
+    height: 80px;
+}
+.column{
+width: 100%;
+}
+.intoColumn {
+width: 100px;
+display:inline-block; 
+}
